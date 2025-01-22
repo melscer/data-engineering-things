@@ -35,6 +35,7 @@ def main(params):
 
     df = next(df_iter)
 
+    # The following lines are only needed when ingesting green_tripdata_2019
     #df.lpep_pickup_datetime = pd.to_datetime(df.lpep_pickup_datetime)
     #df.lpep_dropoff_datetime = pd.to_datetime(df.lpep_dropoff_datetime)
 
