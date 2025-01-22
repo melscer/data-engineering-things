@@ -60,7 +60,7 @@ The answer is: `db:5432`
 
 Reason:
 * the service name is `db`
-* pgadmin needs to connect to postgres container within the Docker network. The port of the postgres container is `5432`. (`5431` is the port of the local host, which is irrelevant since the two containers are running in the same network)
+* pgadmin needs to connect to postgres container within the Docker network. The port of the postgres container is `5432`. (`5433` is the port of the local host, which is irrelevant since the two containers are running in the same network)
 
 
 ##  Prepare Postgres
